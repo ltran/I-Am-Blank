@@ -154,3 +154,107 @@ Connecting to database specified by database.yml
   [1m[36m (294.4ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
   [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
   [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (1.1ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (62.3ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (196.5ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.8ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (107.4ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (264.7ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (1.1ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (75.7ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (226.0ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.9ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (91.8ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (215.8ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (30.2ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (74.8ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (191.0ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.8ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (56.8ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (184.3ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.8ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (86.8ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (344.0ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (26.7ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (77.8ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (189.8ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (23.4ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.8ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (78.0ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (278.1ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (2.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.8ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (86.7ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (213.1ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.8ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (75.4ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (184.0ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (1.0ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.4ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (92.6ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (258.1ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.7ms)[0m  DROP DATABASE IF EXISTS `i_am_blank_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `i_am_blank_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (80.0ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (205.9ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
